@@ -1,0 +1,14 @@
+.dsct-comment-card {
+  border: 1px solid var(--dsct-color-card-border);
+  border-radius: 12px;
+  background-color: var(--dsct-color-bg-primary);
+  padding: 25px 20px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dsct-comment-card p {
+  color: var(--dsct-color-font-secondary);
+  font-size: 16px;
+}

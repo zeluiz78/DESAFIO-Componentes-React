@@ -1,0 +1,34 @@
+.dsct-footer {
+  background-color: var(--dsct-color-bg-secondary);
+  height: 120px;
+  padding: 35px;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--dsct-color-font-tertiary);
+}
+
+address div:first-child {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .dsct-footer {
+    padding: 50px;
+  }
+
+  address {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  address div:first-child {
+    margin-bottom: 0;
+  }
+}

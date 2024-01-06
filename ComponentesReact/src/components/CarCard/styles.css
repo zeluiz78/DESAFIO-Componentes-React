@@ -1,0 +1,30 @@
+.dsct-car-card {
+  border: 1px solid var(--dsct-color-card-border);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dsct-car-card img {
+  width: 100%;
+  max-width: 390px;
+  margin-bottom: 10px;
+}
+
+.dsct-car-card h3 {
+  color: var(--dsct-color-font-primary);
+  font-size: 16px;
+}
+
+@media (min-width: 746px) {
+  .dsct-car-card {
+    padding: 20px 0 0 0;
+  }
+
+  .dsct-car-card h3 {
+    font-size: 20px;
+  }
+}
